@@ -109,3 +109,80 @@ li a {
   
 }
 
+hr{
+	margin-left: 31px;
+    margin-top: 10px;
+    width: 316px;
+    color: rgba(0,0,0,0.5);
+}
+
+#caja-registro button {
+	margin-left: 29px;
+    margin-top: 16px;
+    width: 195px;
+    height: 43px;
+    border: 50%;
+    border-radius: 9px;
+    background-color: #E56385;;
+    color: white;
+    box-shadow: none;
+    border: none;
+    
+}
+
+#caja-registro button p {
+	text-align: center;
+    margin-top: 1px;
+    margin-left: -9px;
+    font-weight: 500;
+}
+
+#caja-registro button p i {
+    margin-left: 5px;
+}
+
+#texto-check {
+	margin-left: 29px;
+    margin-top: 15px;
+    font-size: 13px;
+
+}
+
+#texto-check p{
+	margin-left: 0;
+	font-size: 13px;
+}
+
+#texto-check a{
+	text-decoration: none;
+	color: black;
+}
+
+#texto-check a:hover{
+	background-color: rgba(229,227,227,0.7);: 
+}
+
+#texto-earn {
+	margin-left: -6px;
+}
+
+
+#texto-earn p{
+	font-size: 13px;
+}
+
+#texto-earn a{
+	text-decoration: none;
+	color: black;
+}
+
+#texto-earn a:hover{
+	background-color: rgba(229,227,227,0.7);: 
+}
+
+/* Section Play with lyft */
+
+#play{
+	background-color: #00B2A9;
+}
+
