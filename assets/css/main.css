@@ -13,6 +13,7 @@ Colors:
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
+	color: #EDE9E2;
 }
 
 /* Nav Bar */
@@ -70,7 +71,7 @@ li a {
 /* Header */
 
 #imagen-fondo img {
-	position: relative;
+	position: fixed;
 	width: 100%;
 	display: inline-block;
 }
@@ -81,7 +82,7 @@ li a {
     height: 315px;
     display: inline-block;
     position: relative; /* para posicionarlo sobre la img */
-    margin-top: -420px;
+    margin-top: 159px;
     background-color: white;
 }
 
@@ -130,11 +131,16 @@ hr{
     
 }
 
+#caja-registro p{
+	color: #75726C;
+}
+
 #caja-registro button p {
 	text-align: center;
     margin-top: 1px;
     margin-left: -9px;
     font-weight: 500;
+    color: #EDE9E2; 
 }
 
 #caja-registro button p i {
@@ -183,6 +189,24 @@ hr{
 /* Section Play with lyft */
 
 #play{
-	background-color: #00B2A9;
+	position: relative;
+    background-color: #00B2A9;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+	margin-top: 100px;
+}
+
+#txt-play{
+    background-color: #EDE9E2;
+    height: 70px;
+    margin-top: 60px;
+}
+
+#txt-play h1{
+    color: #00B2A9;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 42px;
 }
 
