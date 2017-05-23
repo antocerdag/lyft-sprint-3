@@ -183,7 +183,7 @@ hr{
 }
 
 #texto-earn a:hover{
-	background-color: rgba(229,227,227,0.7);: 
+	background-color: rgba(229,227,227,0.7);
 }
 
 /* Section Play with lyft */
@@ -192,9 +192,9 @@ hr{
 	position: relative;
     background-color: #00B2A9;
     width: 100%;
-    height: 500px;
+    height: 570px;
     display: inline-block;
-	margin-top: 100px;
+	margin-top: 59px;
 }
 
 #txt-play{
@@ -204,9 +204,149 @@ hr{
 }
 
 #txt-play h1{
-    color: #00B2A9;
+    color: #75726C;
     text-align: center;
     padding-top: 13px;
     font-size: 42px;
 }
 
+#caja-coordenadas {
+    background-color: #EDE9E2;
+    width: 80%;
+    height: 270px;
+    margin-left: 110px;
+    position: absolute;
+    top: 181px;
+}
+
+#coordenada1 {
+    padding-top: 93px;
+    margin-left: 69px;
+    display: inline-block;
+    position: absolute;
+}
+
+#coordenada1 i{
+	color: #75726C;
+}
+
+#coordenada1 input{
+	margin-left: 10px;
+	font-size: 18px;
+  	color: rgba(0,0,0,0.3);
+ 	border: none;
+ 	background-color: rgba(237,233,226,0.5);
+}
+
+#coordenada1 input:hover{
+	background-color: rgba(212,211,209,0.7);
+}
+
+
+#coordenada1 hr{
+	width: 240px;
+}
+
+#coordenada2 {
+     padding-left: 80px;
+    padding-top: 93px;
+    margin-left: 352px;
+    display: inline-block;
+    position: absolute;
+}
+
+#coordenada2 i{
+	color: #75726C;
+}
+
+#coordenada2 input{
+	margin-left: 10px;
+	font-size: 18px;
+  	color: rgba(0,0,0,0.3);
+ 	border: none;
+ 	background-color: rgba(237,233,226,0.5);
+}
+
+#coordenada2 input:hover{
+	background-color: rgba(212,211,209,0.7);
+}
+
+#coordenada2 hr{
+	width: 240px;
+}
+
+#boton-start button {
+    background-color: #00B2A9;
+    margin-left: 67px;
+    margin-top: 168px;
+    width: 641px;
+    height: 43px;
+    border-radius: 9px;
+    color: white;
+    box-shadow: none;
+    border: none;
+}
+
+#boton-start button:hover{
+	background-color: #029891;
+}
+
+/* Footer */
+
+footer {
+	 background-color: #75726C;
+    width: 100%;
+    height: 220px;
+    margin-top: 0px;
+    display: inline-block;
+    position: absolute;
+}
+
+#sprint{
+	margin-left: 118px;
+    position: relative;
+    margin-top: 36px;
+    display: inline-block;
+}
+
+#sprint h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#iconos-redes{
+	float: right;
+    margin-right: 170px;
+    margin-top: 36px;
+    position: 
+}
+
+#iconos-redes h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+#iconos-redes a {
+	display: inherit;
+	margin-top: 9px;
+}
+
+
+#abajo{
+	position: relative;
+    background-color: #666666;
+    width: 100%;
+    margin-top: 86px;
+    height: 50px;
+    z-index: 1000;
+}
+
+#abajo p{
+	margin-left: 118px;
+    margin-top: 16px;
+    position: absolute;
+}
