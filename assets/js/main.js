@@ -16,24 +16,56 @@ botonDriver.onclick=function(){
 
 var botonStart = document.getElementById("start");
 botonStart.onclick = function(){
-	var canvas = document.getElementById("caja-coordenadas");
-	if (canvas.style.display !== 'none') {
-	        canvas.style.display = 'none';
+
+	function ocultarDiv(){
+		var caja = document.getElementById("caja-coordenadas");
+		if (caja.style.display !== 'none') {
+		        caja.style.display = 'none';
 	    }
 	    else {
-	        canvas.style.display = 'block';
+	        caja.style.display = 'block';
 	    }
-	var div = document.getElementById("header");
-	var newDiv = document.createElement("div");
 
-}
-/*
-function ocultar(){
+	
+	
+	}
+	ocultarDiv();
+
+	function mostrarDiv(){
+
+		var canvas = document.getElementById("canvas");
+		
+	}
+	mostrarDiv();
+
+};
 
 	
 	var x = document.getElementById("x").value;
 	var y = document.getElementById("y").value;
+
+	if (x > 10){
+		alert("Debe ingresar un numero entre 1 y 10");
+	}
+	if (y > 6){
+		alert("Debe ingresar un numero entre 1 y 6");
+	}
+	var tablero = [
+	  [0,0,0,0,0,0,0,0,0,0],
+	  [0,0,0,0,0,0,0,0,0,0],
+	  [0,0,0,0,0,0,0,0,0,0],
+	  [0,0,0,0,0,0,0,0,0,0],
+	  [0,0,0,0,0,0,0,0,0,0],
+	  [0,0,0,0,0,0,0,0,0,0]
+	];
+
+	tablero[x][y] = "A";
 	
+	var canvas = document.getElementById("canvas");
+
+
+/*
+
 	function Auto(x,y){
 		this.x = x;
 		this.y = y;
@@ -46,9 +78,4 @@ function ocultar(){
 
 	}
 
-	this.show = function(){
-		fill(255);
-		rect(this.x,this.y,10,10);
-	}
-})
 */
