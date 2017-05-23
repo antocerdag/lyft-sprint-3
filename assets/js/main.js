@@ -1,17 +1,18 @@
-document.getElementById("become-driver").addEventListener("click", validate());
-
-function validate(){
+var botonDriver = document.getElementById("become-driver");
+botonDriver.onclick=function(){
 	function numero(){
 		var numero = document.getElementById("phone").value;
 		numero = ""
 
 		if( !(/^\d{9}$/.test(numero)) ) {
- 			return false;
+ 			alert("Ingrese un numero válido");
 		}
 		
 	}
 	numero();
 }
+
+
 
 var botonStart = document.getElementById("start");
 botonStart.onclick = function(){
@@ -22,6 +23,9 @@ botonStart.onclick = function(){
 	    else {
 	        canvas.style.display = 'block';
 	    }
+	var div = document.getElementById("header");
+	var newDiv = document.createElement("div");
+
 }
 /*
 function ocultar(){
