@@ -21,10 +21,12 @@ Colors:
 	background-color: #E54E79;
 	background-size: cover;
 	background-position: center;
+	position: fixed;
 }
 
 #logo {
 	width: 84px;
+	
     margin-left: 111px;
     padding: 9px;
 }
@@ -34,23 +36,32 @@ ul{
 	padding: 0;
 	overflow: hidden; 
 	background-color:  #E54E79;
+	list-style: none;
 
 }
 
+#div-lista{
+	margin-top: -65px;
+	margin-right: 127px;
+}
+
 li {
-	margin-right: 25px;
+	margin-right: 14px;
     float: right;
     padding: 10px;
 }
 
 li:hover{
-	
+	background-color: #E56385;
 }
 
 li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+    display: block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 14px;
+    padding-right: 0px;
+    padding-left: 0;
+    text-decoration: none;
 }
