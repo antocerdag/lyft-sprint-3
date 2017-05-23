@@ -77,10 +77,35 @@ li a {
 
 #caja-registro {
 	float: right;
-    width: 100px;
-    height: 100px;
+    width: 389px;
+    height: 315px;
     display: inline-block;
     position: relative; /* para posicionarlo sobre la img */
-    margin-top: -370px;
+    margin-top: -420px;
     background-color: white;
 }
+
+#caja-registro h2 {
+	color: #00B2A9;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 32px;
+    margin-top: 34px;
+}
+
+#caja-registro p {
+	font-size: 14px;
+    margin-left: 34px;
+    margin-top: 13px;
+}
+
+#caja-registro input{
+
+  display: inline-block;
+  margin-left: 32px;
+  margin-top: 35px;
+  font-size: 18px;
+  color: rgba(0,0,0,0.3);
+  border: none;
+  
+}
+
