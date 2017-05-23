@@ -18,15 +18,16 @@ Colors:
 /* Nav Bar */
 
 #navbar {
-	background-color: #E54E79;
+	width: 100%;
+	display: inline-block;
+	position: fixed;
 	background-size: cover;
 	background-position: center;
-	position: fixed;
+	z-index: 1;
 }
 
 #logo {
 	width: 84px;
-	
     margin-left: 111px;
     padding: 9px;
 }
@@ -64,4 +65,22 @@ li a {
     padding-right: 0px;
     padding-left: 0;
     text-decoration: none;
+}
+
+/* Header */
+
+#imagen-fondo img {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+
+#caja-registro {
+	float: right;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative; /* para posicionarlo sobre la img */
+    margin-top: -370px;
+    background-color: white;
 }
