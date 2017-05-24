@@ -12,8 +12,21 @@ botonDriver.onclick=function(){
 	numero();
 }
 
+var inputuno = document.getElementById("phone");
+var inputDos = document.getElementById("x");
+var inputTres = document.getElementById("y");
 
+inputuno.onclick = function(){
+	this.value = "";
+}
 
+inputDos.onclick = function(){
+	this.value = "";
+}
+
+inputTres.onclick = function(){
+	this.value = "";
+}
 
 
 var botonStart = document.getElementById("start");
