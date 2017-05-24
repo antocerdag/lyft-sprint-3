@@ -11,7 +11,7 @@ botonDriver.onclick=function(){
 	}
 	numero();
 }
-
+/* ----------------- Limpia el input al hacer click en el ---------------------*/
 var inputuno = document.getElementById("phone");
 var inputDos = document.getElementById("x");
 var inputTres = document.getElementById("y");
@@ -52,7 +52,11 @@ botonStart.onclick = function(){ //al hacer click se ejecutan todas estas funcio
 	var cajaplay = document.getElementById("play");
 	var canvas = document.createElement("div");	
    	canvas.setAttribute("id", "canvas");
+   	var autito = document.createElement("img");
+   	autito.setAttribute('src', 'assets/img/car.png');
+   	autito.setAttribute("id", "autito");
 
+   	canvas.appendChild(autito);
    	cajaplay.appendChild(canvas);
 //muestra el div canvas al ocultarse el div de las coordenadas 
 		
