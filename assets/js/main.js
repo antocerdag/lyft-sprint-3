@@ -14,8 +14,12 @@ botonDriver.onclick=function(){
 
 
 
+
+
 var botonStart = document.getElementById("start");
 botonStart.onclick = function(){ //al hacer click se ejecutan todas estas funciones
+
+
 
 	function ocultarDiv(){
 		var caja = document.getElementById("caja-coordenadas");
@@ -45,8 +49,10 @@ botonStart.onclick = function(){ //al hacer click se ejecutan todas estas funcio
 	function validate(){
 			var x = document.getElementById("x").value;
 		var y = document.getElementById("y").value;
+		x = "";
+		y = "";
 
-		if ((x > 10 || x < 0)&& (y > 6 || y < 0)){
+		if ((x > 10 || x < 0 )&& (y > 6 || y < 0 )){
 			alert("Debe ingresar un numero entre 0 - 10 y 0 - 6");
 		}
 	//validación que te pide ingresar coordenadas 	
