@@ -291,12 +291,15 @@ hr{
 	background-color: #029891;
 }
 
-.canvas {
-	background-color: #EDE9E2;
-	width: 600px;
-    height: 400px;
-    margin-left: 250px;
-	display:none;
+#canvas {
+	
+	display: hidden;
+    background-color: #ede9e2;
+    width: 70%;
+    height: 340px;
+    position: relative;
+    left: 150px;
+    top: 30px;
 }
 
 
@@ -344,6 +347,14 @@ footer {
 	margin-top: 9px;
 }
 
+#iconos-redes i{
+    display: inline-block;
+}
+
+#iconos-redes p{
+    display: inline-block;
+    margin-left: 10px;
+}
 
 #abajo{
 	position: relative;
